@@ -3,61 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameGuru - Games Catalog</title>
+  <meta name="description" content="GameGuru - Explore the best Android games and MODs">
+  <meta name="keywords" content="GameGuru, Android games, MODs, download games">
+  <title>GameGuru - Android Games & MODs</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <div class="logo">
+    <div class="container">
       <h1>GameGuru</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">MODs</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <input type="text" placeholder="Search games or apps" class="search-bar">
-    </nav>
   </header>
 
   <section class="hero">
-    <h2>Games Catalog</h2>
-    <p>An extensive collection of exciting games and apps for Android</p>
-    <div class="hero-buttons">
-      <a href="#" class="btn">All Games</a>
-      <a href="#" class="btn">MOD Games</a>
+    <div class="container">
+      <h2>Explore the Best Android Games & MODs</h2>
+      <p>Your #1 source for premium, MODded, and free Android games.</p>
+      <a href="#games" class="btn">View All Games</a>
     </div>
   </section>
 
-  <section id="latest-games" class="latest-section">
-    <h3>Latest Games</h3>
-    <div class="placeholder">Games will be added here...</div>
+  <section id="games" class="section">
+    <div class="container">
+      <h3>Featured Games</h3>
+      <div class="games-grid">
+        <div class="game-card">
+          <h4>Game 1</h4>
+          <p>Description of the game here...</p>
+        </div>
+        <div class="game-card">
+          <h4>Game 2</h4>
+          <p>Description of the game here...</p>
+        </div>
+        <div class="game-card">
+          <h4>Game 3</h4>
+          <p>Description of the game here...</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="latest-programs" class="latest-section">
-    <h3>Latest Programs</h3>
-    <div class="placeholder">Programs will be added here...</div>
-  </section>
-
-  <section id="news" class="news-section">
-    <h3>Latest News</h3>
-    <div class="placeholder">News articles will be added here...</div>
-  </section>
-
-  <section id="submit-mod" class="submit-mod-section">
-    <h3>Submit Your MOD</h3>
-    <form>
-      <label for="mod-name">MOD Name:</label>
-      <input type="text" id="mod-name" name="mod-name" placeholder="Enter MOD name" required>
-
-      <label for="mod-description">Description:</label>
-      <textarea id="mod-description" name="mod-description" placeholder="Enter a short description" required></textarea>
-
-      <label for="file-upload">Upload MOD File:</label>
-      <input type="file" id="file-upload" name="file-upload" required>
-
-      <button type="submit" class="btn">Submit</button>
-    </form>
+  <section id="contact" class="section">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 GameGuru. All rights reserved.</p>
+    <div class="container">
+      <p>© 2025 GameGuru. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
