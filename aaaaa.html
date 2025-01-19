@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameguru - Game Mods Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2f;
+            color: #f4f4f9;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #ff5722;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #ff5722, #e91e63);
+            color: white;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .mod-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .mod-item {
+            background-color: #29293d;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .mod-item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #1e1e2f;
+            color: #bbb;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gameguru</h1>
+        <p>Your Ultimate Hub for Game Mods</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#mods">Mods</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Discover the Best Mods for Your Favorite Games!</h2>
+        <p>Explore, download, and enjoy top-tier mods crafted by the community.</p>
+    </div>
+    <section id="mods">
+        <h2>Latest Mods</h2>
+        <div class="mod-grid">
+            <div class="mod-item">
+                <h3>Mod Title 1</h3>
+                <p>Description of the mod. Works for [Game Name].</p>
+                <button>Download</button>
+            </div>
+            <div class="mod-item">
+                <h3>Mod Title 2</h3>
+                <p>Description of the mod. Works for [Game Name].</p>
+                <button>Download</button>
+            </div>
+            <div class="mod-item">
+                <h3>Mod Title 3</h3>
+                <p>Description of the mod. Works for [Game Name].</p>
+                <button>Download</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Gameguru</h2>
+        <p>Gameguru is a community-driven platform dedicated to bringing you the best game mods. Our mission is to enhance your gaming experience.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@gameguru.com</p>
+        <p>Follow us on social media for updates!</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Gameguru. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
