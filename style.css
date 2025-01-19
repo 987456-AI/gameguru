@@ -7,8 +7,8 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   color: #333;
-  background-color: #f9f9f9;
   line-height: 1.6;
 }
 
@@ -16,12 +16,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #4caf50;
+  background-color: #4caf50;
   padding: 1rem;
 }
 
 header .logo h1 {
-  color: #fff;
+  color: white;
   font-size: 1.8rem;
 }
 
@@ -34,36 +34,38 @@ header .search-bar {
 
 .hero {
   text-align: center;
-  background: #333;
-  color: #fff;
+  background: linear-gradient(to bottom, #333, #555);
+  color: white;
   padding: 2rem 1rem;
 }
 
 .hero h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  margin: 1rem 0;
 }
 
 .hero-buttons .btn {
   display: inline-block;
-  background: #4caf50;
+  margin: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #4caf50;
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem;
   border-radius: 5px;
+  font-size: 1rem;
 }
 
 .hero-buttons .btn:hover {
-  background: #45a049;
+  background-color: #45a049;
 }
 
 .latest-section {
-  padding: 1.5rem;
+  padding: 2rem 1rem;
+  background-color: white;
+  margin: 1rem 0;
 }
 
 .latest-section h3 {
@@ -71,54 +73,25 @@ header .search-bar {
   margin-bottom: 1rem;
 }
 
-.cards {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  width: calc(50% - 1rem);
-  padding: 1rem;
+.placeholder {
   text-align: center;
-}
-
-.card img {
-  width: 100%;
+  font-size: 1rem;
+  color: gray;
+  border: 2px dashed #ddd;
+  padding: 2rem;
   border-radius: 5px;
-}
-
-.card h4 {
-  margin-top: 0.5rem;
-}
-
-.card p {
-  color: #555;
-  font-size: 0.9rem;
 }
 
 .news-section {
-  background: #fff;
-  padding: 1.5rem;
-}
-
-.news-section h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.news-item {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  line-height: 1.4;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  margin: 1rem 0;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #333;
-  color: #fff;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
 }
